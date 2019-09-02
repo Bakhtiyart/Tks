@@ -1,4 +1,10 @@
 @import "_mixins/font-face";
 
-@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("Roboto", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("Roboto", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("Myriad Pro", "../fonts/MyriadProRegular/MyriadProRegular");
+@include font-face("Myriad Pro", "../fonts/MyriadProBold/MyriadProBold", bold);
+@include font-face("PlayfairDisplay", "../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular");
+@include font-face("PlayfairDisplay", "../fonts/PlayfairDisplayBold/PlayfairDisplayBold", bold);
+@include font-face("PlayfairDisplay", "../fonts/PlayfairDisplayItalic/PlayfairDisplayItalic", italic);
+@include font-face("Helios", "../fonts/HeliosRegular/HeliosRegular");
